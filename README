@@ -1,0 +1,6 @@
+for i in `seq 1 31`; do echo processing page $i; convert -density 300 CAH_ItalianByFederico.pdf\[$(($i - 1 ))\] -background white -flatten +matte -colors 7 page$i.tif; done
+
+for i in `seq 3 30`; do for l in `seq 0 4`; do for j in `seq 0 3`; do echo processing page $i vert $l oriz $j ; convert -crop 550x480+$(($j*600+95))+$(($l*600+170)) page$i.tif crop/page$i-$l-$j.tif; done; done; done
+
+for i in `seq 3 30`; do for l in `seq 0 4`; do for j in `seq 0 3`; do echo processing page $i vert $l oriz $j; tesseract -l eng+ita page$i-$l-$j.tif page$i-$l-$j; cat page$i-$l-$j.txt >> cah-ita.txt; echo "&" >> cah-ita.txt; done; echo "\\\\" >> cah-ita.txt; done; done
+
