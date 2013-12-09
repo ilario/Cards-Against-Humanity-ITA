@@ -2,13 +2,19 @@
 \usepackage[utf8]{inputenc}
 \usepackage[italian]{babel}
 \usepackage{longtable}
-% \usepackage[cm]{fullpage}
 \usepackage[margin=1cm,footskip=0pt]{geometry}
-\begin{document}
-\begin{center}
-% \newcommand{\carta}[1]{\begin{minipage}{0.25\textwidth}\flushleft {#1}\end{minipage}}
+\usepackage{mdframed}
+\usepackage{color} 
+\definecolor{darkgray}{gray}{0.2}
+\renewcommand{\familydefault}{\sfdefault}
+\renewcommand{\seriesdefault}{\bfdefault}
 \newcommand{\carta}[1]{\begin{tabular}{l}\parbox[t][0.15\textheight][t]{0.2\textwidth}{\flushleft #1} \\ {\tiny Cards Against Humanity}\end{tabular}}
-\bf{\centering Cards Against Humanity in italiano}
+
+\begin{document}
+
+\begin{center}
+ \bf{Cards Against Humanity in italiano - Risposte}
+\end{center}
 
 \begin{longtable}{|c|c|c|c|}
 
@@ -379,7 +385,7 @@ bambino.
 
 }& \carta{
 La fondazione
-Make-A-Wish®.
+Make-A-Wish.
 
 }& \carta{
 Una grattata di
@@ -448,7 +454,7 @@ ll frutto proibito.
 Skeletor.
 
 }& \carta{
-KiteKat®.
+KiteKat.
 
 }& \carta{
 Essere ricco.
@@ -573,7 +579,7 @@ un gancio per le
 tende.
 
 }& \carta{
-Polaretti®.
+Polaretti.
 
 }\\ \hline \carta{
 Violenza della
@@ -719,7 +725,7 @@ I miei demoni
 interiori.
 
 }& \carta{
-Un Liquidator®
+Un Liquidator
 pieno di piscio di
 gatto.
 
@@ -1218,7 +1224,7 @@ lntimo
 commestibile.
 
 }& \carta{
-Viagra®.
+Viagra.
 
 }& \carta{
 Zuppa che é
@@ -1815,7 +1821,37 @@ Essere sboccati.
  
 
 }& \carta{
-}\\ \hline \carta{
+}\\ \hline 
+\end{longtable}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\pagebreak
+
+\begin{center}
+ \bf{Cards Against Humanity in italiano - Domande}
+\end{center}
+
+\begin{mdframed}[backgroundcolor=darkgray,hidealllines=true]
+\color{white}
+
+\begin{longtable}{|c|c|c|c|}
+
+\hline
+\carta{
 La nuove norma
 sulla sicurezza
 ora proibisce
@@ -2319,13 +2355,12 @@ Naturale inaugurerà
 una mostra
 interattiva su
 
-u:
+
 
 }& \carta{
 Guerra! A cosa ci
 serve?
 
--1
 
 }\\ \hline \carta{
 Cosa mi crea
@@ -2383,5 +2418,5 @@ cinque fratello!
 \hline
 
 \end{longtable}
-\end{center}
+\end{mdframed}
 \end{document}
