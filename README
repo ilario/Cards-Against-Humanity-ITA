@@ -7,7 +7,11 @@ for i in `seq 3 30`; do for l in `seq 0 4`; do for j in `seq 0 3`; do echo proce
 
 for i in `seq 3 30`; do for l in `seq 0 4`; do for j in `seq 0 3`; do echo processing page $i vert $l oriz $j; tesseract -l eng+ita page$i-$l-$j.tif page$i-$l-$j; cat page$i-$l-$j.txt >> cah-ita.txt; echo "&" >> cah-ita.txt; done; echo "\\\\" >> cah-ita.txt; done; done
 
-Il file cah-ita-base.tex si basa sulla versione tradotta da Federico e ne differisce solo per la rimozione di alcune carte che sono peggiori della media.
+Il file cah-ita-originale-federico-sfoltita.tex si basa sulla versione tradotta da Federico e ne differisce solo per la rimozione di alcune carte che sono peggiori della media.
 
 Il file cah-ita-espansione.tex è una espansione, non basata sulle espansioni ufficiali a pagamento.
+
+Il file cah-ita-espansione-cah42proj.tex è una espansione, basata sull'espansione di CaH42project.it.
+
+Il file cah-ita-espansione-cah42proj-sfoltita.tex è una espansione, basata sull'espansione di CaH42project.it ma modificata e in cui sono state tolte alcune carte.
 
