@@ -1,6 +1,13 @@
+Il file cah-ita-originale-federico.tex contiene la versione di Cards Against Humanity tradotta da Federico e corretta e impaginata da Ilario.
+Per ricavare il testo dal pdf presente sul sito ufficiale sono stati utilizzati i seguenti comandi per Linux.
+
 for i in `seq 1 31`; do echo processing page $i; convert -density 300 CAH_ItalianByFederico.pdf\[$(($i - 1 ))\] -background white -flatten +matte -colors 7 page$i.tif; done
 
 for i in `seq 3 30`; do for l in `seq 0 4`; do for j in `seq 0 3`; do echo processing page $i vert $l oriz $j ; convert -crop 550x480+$(($j*600+95))+$(($l*600+170)) page$i.tif crop/page$i-$l-$j.tif; done; done; done
 
 for i in `seq 3 30`; do for l in `seq 0 4`; do for j in `seq 0 3`; do echo processing page $i vert $l oriz $j; tesseract -l eng+ita page$i-$l-$j.tif page$i-$l-$j; cat page$i-$l-$j.txt >> cah-ita.txt; echo "&" >> cah-ita.txt; done; echo "\\\\" >> cah-ita.txt; done; done
+
+Il file cah-ita-base.tex si basa sulla versione tradotta da Federico e ne differisce solo per la rimozione di alcune carte che sono peggiori della media.
+
+Il file cah-ita-espansione.tex è una espansione, non basata sulle espansioni ufficiali a pagamento.
 
