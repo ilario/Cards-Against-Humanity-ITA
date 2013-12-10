@@ -7,16 +7,76 @@
 \usepackage{graphicx}
 \usepackage{color} 
 \definecolor{darkgray}{gray}{0.2}
-\renewcommand{\familydefault}{\sfdefault}
-\renewcommand{\seriesdefault}{\bfdefault}
-\newcommand{\carta}[1]{\begin{tabular}{l}\parbox[t][0.15\textheight][t]{0.2\textwidth}{\flushleft #1} \\ {\tiny Cards Against Humanity}\end{tabular}}
+% \renewcommand{\familydefault}{\sfdefault}
+% \renewcommand{\seriesdefault}{\bfdefault}
+\newcommand{\carta}[1]{\begin{tabular}{l}\parbox[t][0.15\textheight][t]{0.2\textwidth}{\sffamily \bfseries \flushleft #1} \\ {\tiny Cards Against Humanity}\end{tabular}}
 % \newcommand{\puntini}{\newline\ldots\ldots\ldots\ldots\ldots\ldots\newline}
 \newcommand\puntini{.........\leavevmode\xleaders\hbox{.}\hfill\kern0pt\ }
-
+\title{Cards Against Humanity in italiano}
+\date{}
 \begin{document}
+\maketitle
+
+\paragraph{Regole di base}
+Per iniziare il gioco, ogni giocatore pesca dieci Carte Bianche.
+Un giocatore a caso assume il ruolo di Re delle Carte e gioca una Carta Nera. Il Re delle Carte
+legge la domanda o la frase da completare riportata sulla Carta Nera ad alta voce.
+Tutti gli altri giocatori rispondono alla domanda o completano la frase passando al Re una Carta
+Bianca a faccia in giù.
+Il Re mescola le risposte e legge le combinazioni al resto del gruppo. Per un effetto migliore il Re
+dovrebbe rileggere la carta nera ogni volta che legge una risposta. Egli sceglie poi la sua risposta
+preferita e il giocatore che ha giocato quella particolare risposta riceve dal Re la Carta Nera, che
+vale come Punto Fighissimo.
+Al termine della mano, un altro giocatore diventa il Re delle Carte ed ogni giocatore pesca dal
+mazzo tante carte quante sono necessarie per ritornare ad avere dieci carte in mano.
+
+\paragraph{Pesca 2}
+Alcune Carte Nere riportano il simbolo 'Pesca 2' in basso.
+Per rispondere o completare queste carte, ogni giocatore utilizzerà due Carte Bianche. L'ordine
+è importante: giocale nell'ordine in cui il Re delle Carte dovrebbe leggerle.
+Se il Re delle Carte ha le mani di pastafrolla, puoi utilizzare delle graffette per assicurarti che ven-
+gano lette nel giusto ordine.
+
+\paragraph{Scommesse}
+Se pensi di poter rispondere ad una Carta Nera utilizzando più di una Carta Bianca che credi
+possa vincere, puoi scommettere uno dei tuoi Punti Fighissimi per giocare una ulteriore Carta
+Bianca.
+Se vinci mantieni il tuo punto. Se invece perdi, chiunque abbia vinto la mano ottiene il punto
+che avevi scommesso.
+
+\paragraph{Varianti della Casa}
+Cards Against Humanity è stato pensato per essere remixato! Ecco alcune delle nostre variazioni
+preferite per rendere il gioco sempre più avvincente:
+\paragraph{Lieto Fine:} Quando sei pronto per terminare il gioco, gioca la Carta Nera 'Inventa un Haiku'.
+Questa carta è la procedura ufficiale di chiusura di una buona partita di Cards Against Humanity
+e dovrebbe essere riservata per la fine. (Nota: Non importa se l'Haiku che inventerete non rispet-
+terà la metrica 5-7-5. E' sufficiente leggerli con la giusta enfasi!).
+\paragraph{Riavvia l'Universo:} In qualsiasi momento, i giocatori possono restituire un Punto Fighissi-
+mo per rimettere nel mazzo una o più delle Carte Bianche che hanno in mano, ed estrarne altret-
+tante nuove, in modo da ritornare a dieci carte in mano.
+\paragraph{L'Arma Nascosta:} In risposta ad una carta con il simbolo 'Pick 2', tutti i giocatori pescano
+dal mazzo una Carta Bianca extra prima di giocare la mano, così da avere a disposizione un mag-
+gior numero di combinazioni.
+\paragraph{Rando Cardrissian:} Ad ogni mano si prende una Carta Bianca dal mazzo e la si mette in
+gioco. Questa carta appartiene a un giocatore immaginario chiamato Rando Cardrissian, e - se
+quest'ultimo vince la partita - tutti i giocatori torneranno a casa in balia di una incancellabile ver-
+gogna.
+\paragraph{Dio è Morto:} Si gioca senza Re delle Carte. Ad ogni mano, ciascun giocatore sceglie la pro-
+pria carta preferita: la carta con più voti vince.
+\paragraph{Selezione Naturale:} Dopo che ciascun giocatore ha risposto alla domanda, i giocatori a
+turno eliminano una risposta a testa. L'ultima carta restante viene dichiarata la più divertente e
+vince il punto.
+\paragraph{Roba da Professionisti:} Invece di scegliere la propria carta preferita ad ogni mano, il Re
+delle Carte classifica le prime tre in ordine. La migliore delle tre ottiene tre Punti, la seconda due
+e la terza uno. Mantenendo traccia dei punteggi su un foglio, alla fine della partita si dichiara il
+vincitore come 'Il più divertente, matematicamente parlando'.
+\paragraph{Non ho mai...:} In qualsiasi momento i giocatori possono scartare le carte che non capiscono,
+ma devono confessare la loro ignoranza al gruppo e patire l'umiliazione che ne consegue.
+
+\pagebreak
 
 \begin{center}
- \bf{CARDS AGAINST HUMANITY in italiano - RISPOSTE \\ (traduzione non ufficiale, credits to http://cardsagainsthumanity.com)}
+ \bf{CARDS AGAINST HUMANITY in italiano - RISPOSTE \\ (traduzione non ufficiale, credits to \texttt{http://cardsagainsthumanity.com})}
 \end{center}
 
 \begin{longtable}{|c|c|c|c|}
@@ -1827,7 +1887,7 @@ Essere sboccati.
 \pagebreak
 
 \begin{center}
- \bf{CARDS AGAINST HUMANITY in italiano - DOMANDE \\ (traduzione non ufficiale, credits to http://cardsagainsthumanity.com)}
+ \bf{CARDS AGAINST HUMANITY in italiano - DOMANDE \\ (traduzione non ufficiale, credits to \texttt{http://cardsagainsthumanity.com})}
 \end{center}
 
 \begin{mdframed}[backgroundcolor=darkgray,hidealllines=true]
@@ -2411,8 +2471,10 @@ cinque fratello!
 \end{center}
 
 \medskip
-
-Licenza Creative Commons By-NC-SA 2.0 IT: \\ Attribuzione -- Non commerciale -- Condividi allo stesso modo 2.0 Italia
+\noindent
+Licenza Creative Commons By-NC-SA 2.0 IT: \\ 
+\indent
+Attribuzione -- Non commerciale -- Condividi allo stesso modo 2.0 Italia
 
 \bigskip
 
@@ -2437,20 +2499,21 @@ Ai seguenti termini:
     NonCommerciale -- Non puoi usare il materiale per scopi commerciali.
 \indent
 
-    StessaLicenza — Se remixi, trasformi il materiale o ti basi su di esso, devi distribuire i tuoi contributi con la stessa licenza del materiale originario.
+    StessaLicenza -- Se remixi, trasformi il materiale o ti basi su di esso, devi distribuire i tuoi contributi con la stessa licenza del materiale originario.
 \indent
 
-    No additional restrictions — Non puoi applicare termini legali o misure tecnologiche che impongano ad altri soggetti dei vincoli giuridici su quanto la licenza consente loro di fare.
+    No additional restrictions -- Non puoi applicare termini legali o misure tecnologiche che impongano ad altri soggetti dei vincoli giuridici su quanto la licenza consente loro di fare.
 
-\bigskip
-\noindent
-Riconoscimenti:
-\indent
+\bigskip\bigskip
 
-Cards Against Humanity LLC (http://cardsagainsthumanity.com), ideatori e redattori della versione originale inglese.
+\begin{center}\bf{Riconoscimenti:}\end{center}
 
-Federico, primo traduttore ed adattatore dalla versione inglese.
+\paragraph{Cards Against Humanity LLC} (\texttt{http://cardsagainsthumanity.com}) ideatori e redattori della versione originale inglese.
 
-Ilario, OCR del pdf realizzato da Federico, correzioni e impaginazione.
+\paragraph{Federico} primo traduttore ed adattatore dalla versione inglese.
+
+\paragraph{Ilario} OCR del pdf realizzato da Federico, correzioni alla traduzione e impaginazione.
+
+\paragraph{Luca} (\texttt{http://cah42project.it}) traduttore del regolamento.
 
 \end{document}
