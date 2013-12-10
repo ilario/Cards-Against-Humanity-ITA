@@ -2,22 +2,20 @@
 \usepackage[utf8]{inputenc}
 \usepackage[italian]{babel}
 \usepackage{longtable}
-\usepackage[margin=1cm,footskip=0pt]{geometry}
+\usepackage{geometry}
 \usepackage{mdframed}
 \usepackage{graphicx}
 \usepackage{color} 
 \definecolor{darkgray}{gray}{0.2}
-% \renewcommand{\familydefault}{\sfdefault}
-% \renewcommand{\seriesdefault}{\bfdefault}
 \newcommand{\carta}[1]{\begin{tabular}{l}\parbox[t][0.15\textheight][t]{0.2\textwidth}{\sffamily \bfseries \flushleft #1} \\ {\tiny Cards Against Humanity}\end{tabular}}
-% \newcommand{\puntini}{\newline\ldots\ldots\ldots\ldots\ldots\ldots\newline}
 \newcommand\puntini{.........\leavevmode\xleaders\hbox{.}\hfill\kern0pt\ }
 \title{Cards Against Humanity in italiano}
 \date{}
+\author{}
 \begin{document}
 \maketitle
 
-\paragraph{Regole di base}
+\section*{Regole di base}
 Per iniziare il gioco, ogni giocatore pesca dieci Carte Bianche.
 Un giocatore a caso assume il ruolo di Re delle Carte e gioca una Carta Nera. Il Re delle Carte
 legge la domanda o la frase da completare riportata sulla Carta Nera ad alta voce.
@@ -26,54 +24,42 @@ Bianca a faccia in giù.
 Il Re mescola le risposte e legge le combinazioni al resto del gruppo. Per un effetto migliore il Re
 dovrebbe rileggere la carta nera ogni volta che legge una risposta. Egli sceglie poi la sua risposta
 preferita e il giocatore che ha giocato quella particolare risposta riceve dal Re la Carta Nera, che
-vale come Punto Fighissimo.
-Al termine della mano, un altro giocatore diventa il Re delle Carte ed ogni giocatore pesca dal
+vale come Punto Fighezza.
+Al termine della mano, il giocatore successivo diventa il Re delle Carte ed ogni giocatore pesca dal
 mazzo tante carte quante sono necessarie per ritornare ad avere dieci carte in mano.
 
 \paragraph{Pesca 2}
-Alcune Carte Nere riportano il simbolo 'Pesca 2' in basso.
+Alcune Carte Nere riportano due spazi per le risposte.
 Per rispondere o completare queste carte, ogni giocatore utilizzerà due Carte Bianche. L'ordine
 è importante: giocale nell'ordine in cui il Re delle Carte dovrebbe leggerle.
-Se il Re delle Carte ha le mani di pastafrolla, puoi utilizzare delle graffette per assicurarti che ven-
-gano lette nel giusto ordine.
+Se il Re delle Carte ha le mani di pastafrolla, puoi utilizzare delle graffette per assicurarti che vengano lette nel giusto ordine.
 
-\paragraph{Scommesse}
-Se pensi di poter rispondere ad una Carta Nera utilizzando più di una Carta Bianca che credi
-possa vincere, puoi scommettere uno dei tuoi Punti Fighissimi per giocare una ulteriore Carta
-Bianca.
-Se vinci mantieni il tuo punto. Se invece perdi, chiunque abbia vinto la mano ottiene il punto
-che avevi scommesso.
-
-\paragraph{Varianti della Casa}
+\section*{Varianti della Casa}
 Cards Against Humanity è stato pensato per essere remixato! Ecco alcune delle nostre variazioni
 preferite per rendere il gioco sempre più avvincente:
-\paragraph{Lieto Fine:} Quando sei pronto per terminare il gioco, gioca la Carta Nera 'Inventa un Haiku'.
-Questa carta è la procedura ufficiale di chiusura di una buona partita di Cards Against Humanity
-e dovrebbe essere riservata per la fine. (Nota: Non importa se l'Haiku che inventerete non rispet-
-terà la metrica 5-7-5. E' sufficiente leggerli con la giusta enfasi!).
-\paragraph{Riavvia l'Universo:} In qualsiasi momento, i giocatori possono restituire un Punto Fighissi-
-mo per rimettere nel mazzo una o più delle Carte Bianche che hanno in mano, ed estrarne altret-
-tante nuove, in modo da ritornare a dieci carte in mano.
-\paragraph{L'Arma Nascosta:} In risposta ad una carta con il simbolo 'Pick 2', tutti i giocatori pescano
-dal mazzo una Carta Bianca extra prima di giocare la mano, così da avere a disposizione un mag-
-gior numero di combinazioni.
 \paragraph{Rando Cardrissian:} Ad ogni mano si prende una Carta Bianca dal mazzo e la si mette in
 gioco. Questa carta appartiene a un giocatore immaginario chiamato Rando Cardrissian, e - se
-quest'ultimo vince la partita - tutti i giocatori torneranno a casa in balia di una incancellabile ver-
-gogna.
-\paragraph{Dio è Morto:} Si gioca senza Re delle Carte. Ad ogni mano, ciascun giocatore sceglie la pro-
-pria carta preferita: la carta con più voti vince.
+quest'ultimo vince la partita - tutti i giocatori torneranno a casa in balia di una incancellabile vergogna.
+\paragraph{Lieto Fine:} Quando sei pronto per terminare il gioco, gioca la Carta Nera ``Inventa un Haiku''.
+Questa carta è la procedura ufficiale di chiusura di una buona partita di Cards Against Humanity
+e dovrebbe essere riservata per la fine. (Nota: Non importa se l'Haiku che inventerete non rispetterà la metrica 5-7-5. È sufficiente leggerli con la giusta enfasi!).
+\paragraph{Riavvia l'Universo:} In qualsiasi momento, i giocatori possono restituire un Punto Fighezza per rimettere nel mazzo una o più delle Carte Bianche che hanno in mano, ed estrarne altrettante nuove, in modo da ritornare a dieci carte in mano.
+\paragraph{L'Arma Nascosta:} In risposta ad una domanda che richiede due risposte, tutti i giocatori pescano
+dal mazzo una Carta Bianca extra prima di giocare la mano, così da avere a disposizione un maggior numero di combinazioni.
+\paragraph{Dio è Morto:} Si gioca senza Re delle Carte. Ad ogni mano, ciascun giocatore sceglie la propria carta preferita: la carta con più voti vince.
 \paragraph{Selezione Naturale:} Dopo che ciascun giocatore ha risposto alla domanda, i giocatori a
 turno eliminano una risposta a testa. L'ultima carta restante viene dichiarata la più divertente e
 vince il punto.
 \paragraph{Roba da Professionisti:} Invece di scegliere la propria carta preferita ad ogni mano, il Re
 delle Carte classifica le prime tre in ordine. La migliore delle tre ottiene tre Punti, la seconda due
 e la terza uno. Mantenendo traccia dei punteggi su un foglio, alla fine della partita si dichiara il
-vincitore come 'Il più divertente, matematicamente parlando'.
+vincitore come ``Il più divertente, matematicamente parlando''.
 \paragraph{Non ho mai...:} In qualsiasi momento i giocatori possono scartare le carte che non capiscono,
 ma devono confessare la loro ignoranza al gruppo e patire l'umiliazione che ne consegue.
 
 \pagebreak
+
+\newgeometry{margin=1cm,footskip=0pt}
 
 \begin{center}
  \bf{CARDS AGAINST HUMANITY in italiano - RISPOSTE \\ (traduzione non ufficiale, credits to \texttt{http://cardsagainsthumanity.com})}
@@ -2466,13 +2452,15 @@ cinque fratello!
 \end{mdframed}
 
 \pagebreak
+
+\restoregeometry
 \begin{center}
 \includegraphics[width=0.2\textwidth]{cc-by-nc-sa.pdf}
 \end{center}
 
 \medskip
 \noindent
-Licenza Creative Commons By-NC-SA 2.0 IT: \\ 
+Documento soggetto a Licenza Creative Commons By-NC-SA 2.0 IT: \\ 
 \indent
 Attribuzione -- Non commerciale -- Condividi allo stesso modo 2.0 Italia
 
