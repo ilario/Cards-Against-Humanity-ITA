@@ -15,3 +15,10 @@ Il file cah-ita-espansione-cah42proj.tex è una espansione, basata sull'espansio
 
 Il file cah-ita-espansione-cah42proj-sfoltita.tex è una espansione, basata sull'espansione di CaH42project.it ma modificata e in cui sono state tolte alcune carte.
 
+=== UPDATE 2022
+
+I just realized there's a much more elegant LaTeX implementation by Roberto Amabile ([ramabile](https://github.com/ramabile)) here: https://github.com/ramabile/latex-against-humanity
+Check it out!
+Hopefully at some point in the future I'll take his implementation for using it also here.
+
+Another thing I just noticed is that the Italian PDF on the official website changed and thus I should add the new cards here! (TO DO)
